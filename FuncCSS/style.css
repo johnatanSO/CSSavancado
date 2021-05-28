@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+.primeira{
+    width:calc(100% - 60px);
+    height: 100px;
+    background-color: yellow;
+    margin: auto;
+}
