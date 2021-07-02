@@ -1,0 +1,18 @@
+
+.button{
+    background-color: rgb(139, 1, 208);
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    transition-property: background-color, padding;
+    transition-duration: 0.1s;
+}
+.button:hover{
+    background-color:white;
+    color: rgb(139, 1, 208);
+    border: solid 3px rgb(139, 1, 208);;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+}

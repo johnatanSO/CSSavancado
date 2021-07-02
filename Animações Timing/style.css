@@ -1,0 +1,33 @@
+.box{
+    width:200px;
+    height:200px;
+    border: solid 3px black;
+    animation: move 3s; 
+    position: relative;
+    animation-fill-mode: forwards;
+    
+    animation: move 3s ease 0s 1 normal forwards;
+}
+@keyframes move{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 300px
+    }
+}
+.div1{
+    animation-timing-function: linear;
+}
+.div2{
+    animation-timing-function: ease;
+}
+.div3{
+    animation-timing-function: ease-in;
+}
+.div4{
+    animation-timing-function: ease-out;
+}
+.div5{
+    animation-timing-function: ease-in-out;
+}

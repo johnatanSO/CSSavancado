@@ -3,7 +3,10 @@
     height:200px;
     border: solid 3px black;
     animation: mudarCor 3s;
-    animation-delay: -2s;
+    animation-direction: reverse;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    
 }
 
 @keyframes mudarCor{ /**Definir o nome da animação**/
